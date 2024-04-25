@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tea Station || Skills</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li><a class='nav-link' href='/'>home</a></li>
+        <li><a class='nav-link' href='/skills'>skills</a></li>
+        <li><a class='nav-link' href='/about'>about</a></li>
+        <li><a class='nav-link' href='/products'>products</a></li>
+      </ul>
+    </nav>
+    <!-- end of navbar -->
+    <!-- cart button -->
+    <span class="cart-btn" id="cart-btn">
+      <i class="fas fa-cart-shopping">
+        <p class="count">0</p>
+      </i>
+    </span>
+    <div class="cart" id="cart">
+      <div class="cart-header">
+        <h3>Your cart</h3>
+        <span class="cart-close" id="cart-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <div class="cart-body">
+        <hr />
+        <div class="cart-item">
+          <div class="cart-item-image-container">
+            <img src="./images/product-1.jpeg" alt="ginger peach tea" />
+          </div>
+          <div class="cart-item-data">
+            <div class="item-name">
+              <h4>Ginger peach tea</h4>
+            </div>
+            <div class="item-quantity-container">
+              <div class="subtract-quantity">
+                <i class="fas fa-minus"></i>
+              </div>
+              <div class="display-quantity">
+                <input type="text" class="input-quantity" value="1" />
+              </div>
+              <div class="add-quantity">
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="item-price">
+              <p>Rs. 449</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <h3>Subtotal</h3>
+          <p>Rs. 449</p>
+        </div>
+        <div class="cart-footer-checkout">
+          <button class="btn checkout-btn">checkout</button>
+        </div>
+      </div>
+    </div>
+    <!-- end of cart button -->
+    <!-- header -->
+    <header class="header">
+      <div class="banner">
+        <h2>Over one hundred flavours of</h2>
+        <h1>
+          specially <br />
+          crafted tea
+        </h1>
+        <a class='btn banner-btn' href='/skills'>explore</a>
+      </div>
+    </header>
+    <!-- end of header -->
+    <div class="content-divider"></div>
+    <!-- skill section -->
+    <section class="skills clearfix">
+      <!-- single skill 1 -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-mug-hot"></i>
+        </span>
+        <h4 class="skill-title">made in india</h4>
+        <p class="skill-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+          error?
+        </p>
+      </article>
+      <!-- end of single skill 1 -->
+      <!-- single skill 2 -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-glass-cheers"></i>
+        </span>
+        <h4 class="skill-title">relaxation</h4>
+        <p class="skill-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+          error?
+        </p>
+      </article>
+      <!-- end of single skill 2 -->
+      <!-- single skill 3 -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-bomb"></i>
+        </span>
+        <h4 class="skill-title">energy</h4>
+        <p class="skill-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+          error?
+        </p>
+      </article>
+      <!-- end of single skill 3 -->
+      <!-- single skill 4 -->
+      <article class="skill">
+        <span class="skill-icon">
+          <i class="fas fa-mortar-pestle"></i>
+        </span>
+        <h4 class="skill-title">family recipe</h4>
+        <p class="skill-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+          error?
+        </p>
+      </article>
+      <!-- end of single skill 4 -->
+    </section>
+    <!-- end of skill section -->
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <!-- social icons -->
+        <div class="social-icons">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <!-- end of social icons -->
+        <h4 class="footer-text">
+          &copy;<span id="date"></span><span class="company"> tea station</span
+          ><span class="rights"> all rights reserved</span>
+        </h4>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="basic.js"></script>
+  </body>
+</html>

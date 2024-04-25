@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tea Station || About</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li><a class="nav-link" href="/">home</a></li>
+        <!-- <li><a class="nav-link" href="/skills">skills</a></li> -->
+        <li><a class="nav-link" href="/about">about</a></li>
+        <li><a class="nav-link" href="/products">products</a></li>
+      </ul>
+    </nav>
+    <!-- end of navbar -->
+    <!-- cart button -->
+    <span class="cart-btn" id="cart-btn">
+      <i class="fas fa-cart-shopping">
+        <p class="count">0</p>
+      </i>
+    </span>
+    <div class="cart" id="cart">
+      <div class="cart-header">
+        <h3>Your cart</h3>
+        <span class="cart-close" id="cart-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <div class="cart-body">
+        <hr />
+        <div class="cart-item">
+          <div class="cart-item-image-container">
+            <img src="./images/product-1.jpeg" alt="ginger peach tea" />
+          </div>
+          <div class="cart-item-data">
+            <div class="item-name">
+              <h4>Ginger peach tea</h4>
+            </div>
+            <div class="item-quantity-container">
+              <div class="subtract-quantity">
+                <i class="fas fa-minus"></i>
+              </div>
+              <div class="display-quantity">
+                <input type="text" class="input-quantity" value="1" />
+              </div>
+              <div class="add-quantity">
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+            <div class="item-price">
+              <p>Rs. 449</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <h3>Subtotal</h3>
+          <p>Rs. 449</p>
+        </div>
+        <div class="cart-footer-checkout">
+          <button class="btn checkout-btn">checkout</button>
+        </div>
+      </div>
+    </div>
+    <!-- end of cart button -->
+    <!-- about section -->
+    <section>
+      <div class="section-center clearfix">
+        <!-- about-img -->
+        <article class="about-img" style="float: left">
+          <div class="about-picture-container">
+            <img
+              src="./images/about-bcg.jpeg"
+              alt="tea kettle"
+              class="about-picture"
+            />
+          </div>
+          <div class="social-icons about-icons">
+            <a href="#" class="social-icon about-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon about-icon">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" class="social-icon about-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+          <h3>Premium Selection of Teas</h3>
+          <p class="about-text">
+            Indulge in our curated selection of premium teas sourced from the
+            finest tea gardens around the globe. From delicate green teas to
+            robust black teas, floral herbal blends to exotic chai spices, we
+            offer a diverse range of flavors to suit every palate and
+            preference.
+          </p>
+          <h3>Exquisite Tea Accessories</h3>
+          <p class="about-text">
+            Enhance your tea-drinking experience with our collection of
+            exquisite tea accessories. Discover elegant teapots, stylish
+            infusers, delicate tea cups, and more, meticulously crafted to
+            elevate your tea rituals to new heights.
+          </p>
+        </article>
+        <!-- about-info -->
+        <article class="about-info">
+          <!-- section-title -->
+          <div class="section-title">
+            <h3>about our</h3>
+            <h2>tea station</h2>
+          </div>
+          <!-- emd of section-title -->
+          <h3>A Haven for Tea Lovers</h3>
+          <p class="about-text">
+            Step into our tea station and immerse yourself in a serene
+            atmosphere filled with the scent of freshly brewed teas. Whether
+            you're a seasoned connoisseur or new to the world of tea, our
+            knowledgeable staff is here to guide you on a journey of discovery.
+          </p>
+          <h3>Customized Tea Creations</h3>
+          <p class="about-text">
+            Unleash your creativity at our tea station with our customizable tea
+            creations. Choose from an array of fresh ingredients, including
+            fruits, herbs, and spices, to craft your perfect cup of tea tailored
+            to your taste preferences.
+          </p>
+          <h3>Events and Workshops</h3>
+          <p class="about-text">
+            Join us for exciting tea events and workshops hosted regularly at
+            our tea station. From tea tastings to brewing demonstrations, learn
+            about the rich history, culture, and art of tea while connecting
+            with fellow tea enthusiasts in our welcoming community.
+          </p>
+          <h3>Visit Us Today</h3>
+          <p class="about-text">
+            Experience the art of tea at Tea Station. Visit our tea station
+            today to savor the finest teas, explore new flavors, and immerse
+            yourself in a world of tea-inspired bliss. We look forward to
+            sharing a cup of tea with you soon!
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- end of about section -->
+    <!-- about staff -->
+    <section class="services">
+      <!-- section-title -->
+      <div class="about-staff">
+        <h2>about us</h2>
+      </div>
+      <!-- end of section-title -->
+      <div class="section-center clearfix">
+        <!-- single card 1 -->
+        <article class="service-card">
+          <div class="service-img-container">
+            <!-- image -->
+            <img
+              src="./images/reddy.jpg"
+              alt="service-img 1"
+              class="service-img"
+            />
+          </div>
+          <div class="service-info">
+            <h3 style="font-size: 1.5rem; margin-top: -1rem;">Abhinav Reddy</h3>
+            <h4>Chief Tea Connoisseur</h4>
+            <p>
+              Responsible for curating and selecting the finest tea blends from around the world, ensuring a delightful and authentic tea experience for our lovable customers
+            </p>
+          </div>
+        </article>
+        <!-- end of single card 1 -->
+        <!-- single card 2 -->
+        <article class="service-card">
+          <div class="service-img-container">
+            <!-- image -->
+            <img
+              src="./images/self.jpg"
+              alt="service-img 2"
+              class="service-img"
+            />
+          </div>
+          <div class="service-info">
+            <h3 style="font-size: 1.5rem; margin-top: -1rem;">Kenguva Abhinav</h3>
+            <h4>Head of Operations</h4>
+            <p>
+              Manages the day-to-day operations of Tea Station, overseeing logistics, inventory, and customer service to ensure smooth functioning and customer satisfaction
+            </p>
+          </div>
+        </article>
+        <!-- end of single card 2 -->
+        <!-- single card 3 -->
+        <article class="service-card">
+          <div class="service-img-container">
+            <!-- image -->
+            <img
+              src="./images/poojitha.jpg"
+              alt="service-img 3"
+              class="service-img"
+            />
+          </div>
+          <div class="service-info">
+            <h3 style="font-size: 1.5rem; margin-top: -1rem;">Poojitha Reddy</h3>
+            <h4>Creative Director</h4>
+            <p>
+              Leads the creative vision of Tea Station, designing captivating visuals, marketing campaigns, and innovative tea experiences to engage and delight our audience
+            </p>
+          </div>
+        </article>
+        <!-- end of single card 3 -->
+      </div>
+    </section>
+    <!-- end of about staff -->
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <!-- social icons -->
+        <div class="social-icons">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <!-- end of social icons -->
+        <h4 class="footer-text">
+          &copy;<span id="date"></span><span class="company"> tea station</span
+          ><span class="rights"> all rights reserved</span>
+        </h4>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="basic.js"></script>
+  </body>
+</html>
